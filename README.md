@@ -50,9 +50,9 @@ python PointLogger.py -i example.jpg -r -1 +1 -2 +2 -ps 3.0 -l log.txt
 
 This command processes the image `example.jpg` with the coordinate range (-1, +1 -2, +2), sets the point size to `3.0`, and logs the coordinates to `log.txt`.
 
-![images\output.png](images\output.png)
+![images/output.png](images/output.png)
 
-> **Note:** There is a possibility of missing coordinates if high resolution image is used and mouse is dragged very fast over the image. For such case, move the mouse very slowly to capture every coordinate or use a low resolution image. Try using [images\example_low_res.jpg](images\example_low_res.jpg) as example.
+> **Note:** There is a possibility of missing coordinates if high resolution image is used and mouse is dragged very fast over the image. For such case, move the mouse very slowly to capture every coordinate or use a low resolution image. Try using [images/example_low_res.jpg](images/example_low_res.jpg) as example.
 
 ## Applications
 
